@@ -9,9 +9,10 @@ def launch_command():
     print("Launching command:", command)
 
 
-# create a label for the text input
-window.geometry("300x700")
-label = tk.Label(window, text="Command:")
+# create a label and setup arguments for the text input
+window.geometry("300x500")
+window.configure(background="black")
+label = tk.Label(window, text="Command:", bg="black", fg="white", padx=20, pady=10)
 
 # create a text input widget
 entry = tk.Entry(window)
