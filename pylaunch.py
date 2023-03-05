@@ -14,10 +14,10 @@ window.geometry("300x500")
 window.configure(background="black")
 label = tk.Label(window, text="Command:", bg="black", fg="white")
 
-text_input = tk.Entry(window)
+text_input = tk.Entry(window, width=22)
 
 # create a button widget
-button = tk.Button(window, text="Submit")
+button = tk.Button(window, text="Add file", width=8, height=1, bg="black", border=0)
 
 # use the grid() method to position the widgets in a grid
 label.grid(row=0, column=0, padx=5, pady=5)
