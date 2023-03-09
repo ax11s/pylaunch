@@ -37,7 +37,7 @@ def firescript(argument):
     if line == "":
         print("no such file")
     else:       
-        os.system("python3.10 " + line)
+        os.system("python3.10 " + "./pyfiles/" + line + ".py")
 
 
 
